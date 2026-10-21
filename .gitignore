@@ -1,0 +1,23 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets and local config: never commit
+.env
+backend/.env
+*.env.local
+
+# Uploaded files and generated data
+backend/storage/
+uploads/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
