@@ -2,6 +2,18 @@
 
 A web application for PIPL to run engineering, manufacturing, procurement and turnkey projects from quotation to final payment. It covers clients, projects, quotations with revisions, client purchase orders checked against the approved quotation, client payments (receivable **X − Y = Z**), bills of materials with supplier purchase orders and payments, tasks with progress reminders, progress updates with revision history, a calendar, documents, notifications and status reports with optional AI analysis.
 
+## Screenshots
+
+All screenshots use the clearly marked sample data. More are in [`docs/screenshots`](docs/screenshots).
+
+| Dashboard | Project payments (X − Y = Z) |
+|---|---|
+| ![Dashboard](docs/screenshots/02-dashboard.png) | ![Payments](docs/screenshots/07-project-payments.png) |
+| **Client PO vs approved quotation** | **BOM & supplier purchase orders** |
+| ![PO comparison](docs/screenshots/06-client-po-comparison.png) | ![BOM](docs/screenshots/08-project-bom-procurement.png) |
+| **Calendar** | **Status report** |
+| ![Calendar](docs/screenshots/10-calendar-month.png) | ![Report](docs/screenshots/17-status-report.png) |
+
 ## Stack
 
 | Layer | Technology |
